@@ -33,12 +33,12 @@ disableKinds = ["taxonomy"]
         title = "GitHub"
 		
 		[[params.social.list]]
-        icon = ""
+        icon = "fas fa-newspaper"
         url = "https://peeplika.hashnode.dev"
         title = "hashnode"
 		
 		[[params.social.list]]
-        icon = ""
+        icon = "fas fa-envelope"
         url = "priyayadav012004@gmail.com"
         title = "gmail"		
 
