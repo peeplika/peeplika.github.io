@@ -1,0 +1,120 @@
+baseURL = "https://peeplika.github.io/"
+languageCode = "en-us"
+disableKinds = ["taxonomy"]
+
+[build]
+    writeStats = true
+
+[params]
+    title = "Priya's Portfolio"
+    author = ""
+    description = ""
+    copyright = "Custom copyright message"
+    theme = "dark" # `dark` or `light`
+
+    # Profile section
+    [params.profile]
+        name = ""
+        title = "Priya Yadav"
+        photo = ""
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/priya-yadav-90b391232/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/peeplika"
+        title = "GitHub"
+		
+		[[params.social.list]]
+        icon = ""
+        url = "https://peeplika.hashnode.dev"
+        title = "hashnode"
+		
+		[[params.social.list]]
+        icon = ""
+        url = "priyayadav012004@gmail.com"
+        title = "gmail"		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "B.Tech.-CSE"
+        college = "Invertis University"
+        dates = "2022 - 2026"
+        
+
+        [[params.education.list]]
+        degree = "12th"
+        college = "Krishna Publc School"
+        dates = "2019 - 2021"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Hindi"
+        level = "Fluent"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Programming"
+		
+		[[params.hobbies.list]]
+        interest = "Music"
+
+        [[params.hobbies.list]]
+        interest = "Reading"
+
+        [[params.hobbies.list]]
+        interest = ""
+
+    [params.aboutme]
+        description = "Welcome to my portfolio! I'm a sophomore in Computer Science and Engineering, with a growing skill set in C,Python and Java. I've tried Android and web development using Django, and explored data analytics with tools like NumPy and Pandas,worked on a Smart Door System using Arduino-IoT project , small-scale projects using OpenCV. What excites me most is the world of machine learning—I'm eager to learn and contribute to this evolving field.As a continual learner, I embrace challenges that fuel my growth. Explore my portfolio, and let's connect for discussions or potential collaborations. Thanks for stopping by!"
+ 
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "tictactoe-android app"
+        url = "#"
+        description = "My first android app - tictactoe game"
+		
+		[[params.projects.list]]
+        title = "chatbot"
+        url = "#"
+        description = "whatsapp ai chatbot using openAI ,FastApi ,twilio and also building RAG model in it so its personalised"
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "android development, web development"
+        skillrating = 40 # out of 100
+                
+        [[params.skills.list]]
+        skill = "python"
+        skillrating = 70
+		
+        [[params.skills.list]]
+        skill = "data analytics"
+        skillrating = 70
